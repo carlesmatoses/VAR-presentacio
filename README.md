@@ -39,3 +39,20 @@ The novel aproach includes:
 Is important to mention that other works approach this problem too. They're solutions make use of multiple cameras, multiple kineckt devices for depth information, realsitic models for avatars and so one.  (Zhu et al., 2016), uses an aproaach really close to this one but it does not integrate a 2D plane for representing the extracted images in the enviorment.
 
 # Low cost video texture approach
+
+nomenclature:
+- co-located
+- tracam
+- HMD
+- Vive tracking
+- inmersed
+- non-imersed
+
+This method is implemented in a room with the scale of the virtual enviorment to create a tracked area to place immersed and non-immersed users. Non-immersed users will only carry the traking device since they dont need to observe the virtual enviorment
+
+The user wears a headmounted tracam. 
+- Microsoft Kinect v2 color+depth camera
+- Vive tracker (for capturing with the tracam)
+- helmet-rig
+
+With this elements, the cameras get the color, depth and view direction.
